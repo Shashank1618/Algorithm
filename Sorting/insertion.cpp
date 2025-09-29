@@ -4,7 +4,7 @@ using namespace std;
 void insertion_sort(vector<int> v){
     int n = v.size();
     int key,j;
-    for (int i=0;i<n-1;i++){
+    for (int i=1;i<n-1;i++){
         key=v[i];
         j=i-1;
         while(j>=0 && v[j]>key){
